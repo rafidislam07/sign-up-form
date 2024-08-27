@@ -4,46 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>
-        This is not a real online service! You know you need something like this
-        in your life to help you realize your deepest dreams.
-        <br>
-        Sign up <em>now</em> to get started.
-    </p>
-
-    <p>You <em>know</em> you want to.</p>
-    <form action="">
-        <p>Let's do this!</p>
-        <p>
-            <label for="name">First Name:</label>
-            <input type="text" id="name" name="user_fname">
-        </p>
-        <p>
-            <label for="name">Last Name:</label>
-            <input type="text" id="name" name="user_lname">
-        </p>
-        <p>
-            <label for="email">Email:</label>
-            <input type="text" id="name" name="user_name">
-        </p>
-        <p>
-            <label for="number">Phone Number:</label>
-            <input type="tel" id="number" name="user_number">
-        </p>
-        <p>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="user_password">
-        </p>
-        <p>
-            <label for="confirm password">Confirm Password:</label>
-            <input type="password" id="confirm password" name="user_password">
-        </p>
-        <button type="submit">
-            Create Account
-        </button>
-    </form>
-    Already have an account? Log in
+    <div id="whole">
+        <div>
+            <img src="./halie-west-25xggax4bSA-unsplash.jpg" alt="">
+        </div>
+        <div class="right-section">
+            <p class="intro">
+                This is not a real online service! You know you need something like this
+                in your life to help you realize your deepest dreams.
+                <br>
+                Sign up <em>now</em> to get started.
+            </p>
+            <p class="intro">You <em>know</em> you want to.</p>
+            <form action="">
+                <p id="heading-text">Let's do this!</p>
+                <div class="one">
+                    <p>
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" name="user_fname" required>
+                    </p>
+                    <p>
+                        <label for="name">Last Name</label>
+                        <input type="text" id="name" name="user_lname" required>
+                    </p>
+                </div>
+                <div class="one">
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="text" id="name" name="user_name" required>
+                    </p>
+                    <p>
+                        <label for="number">Phone Number</label>
+                        <input type="tel" id="number" name="user_number">
+                    </p>
+                </div>
+                <div class="one">
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="user_password" required>
+                    </p>
+                    <p>
+                        <label for="confirm password">Confirm Password</label>
+                        <input type="password" id="confirm password" name="user_password" required>
+                    </p>
+                </div>
+                <br>
+                <button type="submit">
+                    Create Account
+                </button>
+            </form>
+            <p class="outro">Already have an account? 
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=yxZZ7QIT_xJ6q-wq" target="_blank">Log in</a>
+            </p>
+        </div>
+    </div>
 </body>
 </html>
