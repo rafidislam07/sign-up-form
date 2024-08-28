@@ -9,6 +9,8 @@
     font-style: normal;
   }
 
+
+
 .intro {
     padding: 1rem;
 }
@@ -30,6 +32,7 @@ form {
   .one {
     display: flex;
     justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   input {
@@ -120,7 +123,7 @@ button {
 
   }
 
-    .intro {
+    .intro, .outro {
     font-family: "Jersey 10", sans-serif;
     font-size: larger;
   }
