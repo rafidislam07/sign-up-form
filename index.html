@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="whole">
@@ -34,19 +37,19 @@
                 <div class="one">
                     <p>
                         <label for="email">Email</label>
-                        <input type="text" id="name" name="user_name" required>
+                        <input type="email" id="name" name="user_name" required>
                     </p>
-                    <p>
+                    <p id="numberrr">
                         <label for="number">Phone Number</label>
-                        <input type="tel" id="number" name="user_number">
+                        <input type="tel" id="number" name="user_number" required>
                     </p>
                 </div>
                 <div class="one">
-                    <p>
-                        <label for="password">Password</label>
+                    <p id="password">
+                        <label for="password" id="pp">Password</label>
                         <input type="password" id="password" name="user_password" required>
                     </p>
-                    <p>
+                    <p id="confirm-password">
                         <label for="confirm password">Confirm Password</label>
                         <input type="password" id="confirm password" name="user_password" required>
                     </p>

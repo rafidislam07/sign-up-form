@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 .intro {
     padding: 1rem;
 }
@@ -17,8 +23,8 @@ form {
   }
 
   #heading-text {
-    font-size:larger;
-    margin-bottom: 20px;
+    font-size:large;
+    font-weight: bold;
   }
   
   .one {
@@ -51,7 +57,7 @@ form {
 
 img {
     height: 100vh;
-    width: 40vw;
+    width: 30vw;
     padding-left: 0;
 }
 
@@ -73,9 +79,51 @@ button {
     font-weight: 700;
     color: white;
     background-color: #596D48;
+    margin-top: 15px;
   }
 
   a {
     text-decoration: none;
     color: #596D48;
   }
+
+  #numberrr {
+    transform: translateX(2vw);
+  }
+
+  #password {
+    transform: translateX(0.4vw);
+  }
+
+  #pp{
+    transform: translateX(0.4vw)
+  }
+  #confirm-password {
+    transform: translateX(2.67vw);
+  }
+
+  form p {
+    margin-top: 15px;
+  }
+
+  input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+
+  input:focus:invalid {
+    box-shadow: none;
+  }
+
+  input:focus:valid {
+    box-shadow: none;
+    box-shadow: 0 0 5px 1px green;
+
+  }
+
+    .intro {
+    font-family: "Jersey 10", sans-serif;
+    font-size: larger;
+  }
+
+
+  
